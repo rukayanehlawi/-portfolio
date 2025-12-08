@@ -1030,7 +1030,7 @@ li:last-child {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 48px; /* adjust icon size */
-  color: #00C2E5; /* new icon color */
+  color: #FFFFFF
   cursor: pointer;
   opacity: 0;
   transition: opacity 0.3s ease, transform 0.3s ease;
@@ -1042,6 +1042,11 @@ li:last-child {
   opacity: 1;
   pointer-events: auto; /* enable click on hover */
   transform: translate(-50%, -50%) scale(1.2); /* scale up on hover */
+}
+.portfolio-item .icon-overlay:hover{
+    transition: transform 0.3s ease, color 0.3s ease;
+    transform: scale(1.1);
+    color: #00C2E5;
 }
 
 .website-desc {
@@ -1065,15 +1070,6 @@ li:last-child {
   -moz-user-select: none; /* Old versions of Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
-}
-.icon-class {
-  color: #00C2E5;
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.icon-class:hover {
-  transform: scale(1.1);
-  color: #00C2E5;
 }
 
 
