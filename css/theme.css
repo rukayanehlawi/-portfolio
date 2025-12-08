@@ -1043,11 +1043,6 @@ li:last-child {
   pointer-events: auto; /* enable click on hover */
   transform: translate(-50%, -50%) scale(1.2); /* scale up on hover */
 }
-.portfolio-item .icon-overlay:hover{
-   
-    transform: scale(1.1);
-    color: #00C2E5;
-}
 
 .website-desc {
   text-align: center;
