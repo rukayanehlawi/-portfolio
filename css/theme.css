@@ -1030,7 +1030,7 @@ li:last-child {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 48px; /* adjust icon size */
-  color: #FFFFFF
+  color: #FFFFFF;
   cursor: pointer;
   opacity: 0;
   transition: opacity 0.3s ease, transform 0.3s ease;
@@ -1044,18 +1044,24 @@ li:last-child {
   transform: translate(-50%, -50%) scale(1.2); /* scale up on hover */
 }
 
+.icon-overlay:hover{
+    cursor: pointer;
+    transform:scale(1.2);
+    color:#00C2E5;
+}
+
 .website-desc {
   text-align: center;
   margin-top: 10px;
 }
 
-.icon-overlay-background {
+/* .icon-overlay-background {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   padding: 10px;
   display: inline-block;
   line-height: 0; /* to center the SVG icon */
-}
+} */
 
 /* Disable right-click context menu on video */
 .portfolio-item video {
