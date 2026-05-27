@@ -1,4 +1,4 @@
-const sentences = ["I am a frontend developer", "I am a motion graphics designer"];
+const sentences = ["I am an Animator", "I am a motion Videos designer"];
 let index = 0; 
 let charIndex = 0; 
 const typingSpeed = 100; 
